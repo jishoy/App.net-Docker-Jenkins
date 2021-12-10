@@ -7,7 +7,7 @@ pipeline {
     stages{
          stage('Git clone') {
             steps {
-              git branch: 'main', credentialsId: 'Asp', url: 'https://github.com/jishoy-cloudjournee/App.net.git'
+              git branch: 'main', credentialsId: 'Asp', url: 'https://github.com/jishoy/App.net-Docker-Jenkins.git'
               sh 'ls'
             }
          }
